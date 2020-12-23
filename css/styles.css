@@ -6,7 +6,7 @@
 :root {
   --color-win: url('../images/Gaming_images/Arcade_floor.jpg');
   --color-lose: #351010;
-  --color-start: black;
+  --color-start: url('../images/Gaming_images/Hero_types.jpg');
   --color-neutral: #445069;
   --color-neutral-light: #D2D2D2;
   --color-keys: #37474F;
