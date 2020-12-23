@@ -81,7 +81,7 @@ footer {
 /* Title */
 
 .header {
-	padding: 25px;
+	
     color: red;
 }
 
@@ -129,8 +129,8 @@ footer {
   border-radius: 5px;
   font-size: var(--font-size-medium);
 }
-#banner {
-	border:1px solid red;
+#banner .section {
+	padding-top: 300px;
 }
 /* Overlay */
 
