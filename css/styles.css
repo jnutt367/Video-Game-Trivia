@@ -4,7 +4,7 @@
 /* Variables */
 
 :root {
-  --color-win: url('../images/Gaming_images/Arcade_floor.jpg');
+  --color-win: url('images/Gaming_images/Arcade_floor.jpg');
   --color-lose: #351010;
   --color-start: black;
   --color-neutral: #445069;
@@ -124,7 +124,7 @@ button {
 /* Overlay */
 
 #overlay {
-  background: url("../images/Gaming_images/Illustrated_arcade.jpg");
+  background: url("images/Gaming_images/Illustrated_arcade.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
