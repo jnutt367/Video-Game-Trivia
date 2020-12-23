@@ -6,15 +6,15 @@ const overlay = document.getElementById('overlay');
 let missed = 0;
 //Create a phrases array that contains at least 5 different phrases as strings.
 const phrases = [
-    'Lord of Lords',
-    'The Truth will set you free',
-    'Lean not on your own understanding',
-    'In all your ways acknowledge Him',
-    'He will direct your path',
-    'Jason Nutt Web developer',
-    'Love your neighbor',
-    'My dad was the best dad ever',
-    'My brother takes after my Dad'
+    'Luigi is the tallest Mario Brother',
+    'Sonic is the best Sega Game',
+    'Its a me Mario',
+    'Welcome to your doom',
+    'Mega man is one of my favorites',
+    'Space invaders is a cool game to build',
+    'Link is the hero in zelda',
+    'Sports games are a waste of time',
+    'I mean just play a sport or a game dude'
 ];
 
 // add event listener on click of start button, overlay hidden and empty phrase appears
