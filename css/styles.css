@@ -56,7 +56,8 @@ button {
   transition: var(--transition);
 }
 footer {
-	color: yellow;
+	color: silver;
+	font-size: 1em;
 	margin-top: 100px;
 	text-align: center;
 	background-image: url("../images/Gaming_images/Mario_level.jpg");
@@ -64,7 +65,7 @@ footer {
 }
 
 .main-container {
-  background-image: url("../images/Gaming_images/Mario_level.jpg");
+  background-image: url("https://cdn.vox-cdn.com/thumbor/DNi26fc8Q2pyabJU_VAKEjUkTjE=/0x0:918x511/1200x800/filters:focal(386x183:532x329)/cdn.vox-cdn.com/uploads/chorus_image/image/61392789/Screen_Shot_2018_09_13_at_4.24.47_PM.0.png");");
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -81,8 +82,9 @@ footer {
 /* Title */
 
 .header {
-	
     color: red;
+    text-shadow: 1px 1px silver;
+    font-weight: 900;
 }
 
 /* Phrase */
