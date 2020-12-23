@@ -70,7 +70,6 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
-  max-height: 1400;
   text-align: center;
 }
 
@@ -91,10 +90,10 @@ footer {
 
 .letter {
   font-size: var(--font-size-medium);
-  height: 65px;
+  height: 35px;
   width: 65px;
-  padding: 20px 1px 0 1px;
-  margin-right: 2px;
+  padding: 5px 5px 5px 5px;
+  margin: 2px;
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
