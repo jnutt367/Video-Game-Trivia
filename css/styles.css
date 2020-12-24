@@ -56,11 +56,11 @@ button {
   transition: var(--transition);
 }
 footer {
+	background-color: black;
 	color: silver;
 	font-size: 1em;
 	margin-top: 100px;
 	text-align: center;
-	background-image: url("../images/Gaming_images/Mario_level.jpg");
 	height: 400px;
 }
 
@@ -148,12 +148,12 @@ footer {
   left: 0;
   right: 0;
   border-radius: 5px;
-} 
-#qwerty { 
-  display: grid;
 }
-#scoreboard {
-	margin-bottom: 200px;
+#qwerty {
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-right: 2em;
 }
 .title {
   color: blue;
