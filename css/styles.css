@@ -152,6 +152,9 @@ footer {
 #qwerty { 
   display: grid;
 }
+#scoreboard {
+	margin-bottom: 200px;
+}
 .title {
   color: blue;
   text-shadow: 1px 1px silver;
