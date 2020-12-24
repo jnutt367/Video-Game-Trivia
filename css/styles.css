@@ -148,8 +148,10 @@ footer {
   left: 0;
   right: 0;
   border-radius: 5px;
+} 
+#qwerty { 
+  display: grid;
 }
-
 .title {
   color: blue;
   text-shadow: 1px 1px silver;
