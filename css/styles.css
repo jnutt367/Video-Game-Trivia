@@ -27,6 +27,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
 }
 
