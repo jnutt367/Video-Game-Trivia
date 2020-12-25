@@ -71,7 +71,7 @@ qwerty.addEventListener('click', (e) => {
       let scoreboard = document.querySelector('#scoreboard ol');
       scoreboard.removeChild(heart);
       const lostHeart = document.createElement('li');
-      lostHeart.innerHTML = '<img src="images/lostHeart.png" height="35px" width="30px">';
+      lostHeart.innerHTML = '<img src="svgs/asteroids-galaga-golden-age-of-arcade-video-games-super-nintendo-arcade-game-png-900_1700.jpg" height="35px" width="30px">';
       lostHeart.style.marginRight = '4px';
       scoreboard.appendChild(lostHeart);
     } 
@@ -85,11 +85,11 @@ const checkWin = () => {
   let correctLetters = document.getElementsByClassName('show').length;
   if ( correctLetters === total) {
     overlay.classList.add('win');
-    overlay.textContent = 'Congratulations, you won!';
+    overlay.textContent = 'Congratulations, You are an arcade Wizard!!!';
     overlay.style.display = 'flex';
   } else if (missed > 4) {
     overlay.classList.add('lose');
-    overlay.textContent = 'Sorry, you lost.'
+    overlay.textContent = 'GAME OVER DUDE!! You are just a novice. Keep Gaming! '
     overlay.style.display = 'flex';
   }
 }
