@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: transparent;
   justify-content: space-around;
   flex-direction: column;
   display: flex;
@@ -57,17 +57,11 @@ button {
   -o-transition: var(--transition);
   transition: var(--transition);
 }
-footer {
-	background-color: black;
-	color: silver;
-	font-size: 1em;
-	margin-top: 100px;
-	text-align: center;
-	height: 400px;
-}
+
 
 .main-container {
-  background-image: url("https://unsplash.com/photos/AoMd3sk9Cw0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink");
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.vQWJ_3TVobWXbIXppYZubQHaHx&pid=Api&P=0&w=300&h=300");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -138,7 +132,7 @@ footer {
 /* Overlay */
 
 #overlay {
-  background-image: url("https://cdn.vox-cdn.com/thumbor/DNi26fc8Q2pyabJU_VAKEjUkTjE=/0x0:918x511/1200x800/filters:focal(386x183:532x329)/cdn.vox-cdn.com/uploads/chorus_image/image/61392789/Screen_Shot_2018_09_13_at_4.24.47_PM.0.png");
+  background-image: url("https://retropie.org.uk/forum/assets/uploads/files/1489851802284-arcade_vector.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -152,7 +146,7 @@ footer {
   border-radius: 5px;
 }
 #qwerty {
-	background-color: black;
+	background-color: transparent;
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-right: 2em;
