@@ -58,7 +58,9 @@ button {
   transition: var(--transition);
 }
 
-
+li img {
+	background: transparent;
+}
 .main-container {
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.vQWJ_3TVobWXbIXppYZubQHaHx&pid=Api&P=0&w=300&h=300");
   background-size: cover;
@@ -132,7 +134,7 @@ button {
 /* Overlay */
 
 #overlay {
-  background-image: url("https://retropie.org.uk/forum/assets/uploads/files/1489851802284-arcade_vector.png");
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.CVUgFDaYsetsR6hP67kcaQHaHa&pid=Api&P=0&w=300&h=300");
   background-size: cover;
   display: flex;
   flex-direction: column;
